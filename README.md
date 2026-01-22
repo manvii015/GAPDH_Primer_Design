@@ -1,5 +1,4 @@
 # GAPDH_Primer_Design
-# GAPDH Primer Design
 
 This repository contains PCR primers designed for the human housekeeping gene **GAPDH** as part of the primer designing practical activity.
 
