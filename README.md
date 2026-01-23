@@ -1,32 +1,54 @@
 # GAPDH_Primer_Design
+# 🔬 BLAST Sequence Identification Assignment
 
-This repository contains PCR primers designed for the human housekeeping gene **GAPDH** as part of the primer designing practical activity.
+## 📘 Activity 2: Identify an Unknown Biological Sequence Using BLAST
 
-## Objective
-To retrieve a human gene sequence and design specific PCR primers using NCBI tools, followed by an in-silico specificity check against the human genome.
+This repository contains the completed submission for **Activity 2 (NGS Workshop)**, where unknown biological sequences were identified using the **NCBI BLAST tool**.
 
-## Gene Information
-- Gene Name: GAPDH  
-- Organism: Homo sapiens  
-- NCBI Gene ID: 2597  
-- Chromosome: 12  
+---
 
-## Primer Design Criteria
-- PCR product size: 70–200 bp  
-- Target melting temperature (Tm): ~60 °C  
-- GC content: 40–60%  
-- Primers designed to span exon–exon junctions to avoid genomic DNA amplification  
-- Specificity checked against the human genome (taxid: 9606)
+## 📂 Repository Contents
 
-## Files Included
-- `GAPDH_primers.pdf` – Contains forward and reverse primer sequences, Tm values, GC content, expected product size, and specificity statement
+- **BLAST_Assignment_Submission.docx**  
+  📄 A complete, submission-ready report including:
+  - Step-by-step analysis (Step 1–Step 8)
+  - Identification of DNA and protein sequences
+  - Interpretation of BLAST results
+  - Final conclusions
+  - Embedded BLAST result screenshots
 
-## Tools Used
-- NCBI Gene Database  
-- NCBI Primer-BLAST  
+---
 
-## Specificity Statement
-The designed primer pair is specific to the **GAPDH gene on chromosome 12** and does not show significant off-target amplification in the human genome.
+## 🧬 Summary of Sequence Identification
 
-These primers are suitable for PCR and qPCR applications.
-[GAPDH_primers_.pdf](https://github.com/user-attachments/files/24800133/GAPDH_primers_.pdf)
+| Sequence | Type     | BLAST Tool Used | Identified As | Organism |
+|--------|----------|----------------|---------------|----------|
+| Sequence 1 | DNA | BLASTn | Complete genome fragment | *Zaire ebolavirus* |
+| Sequence 2 | DNA | BLASTn | Insulin (INS) gene | *Homo sapiens* |
+| Sequence 3 | Protein | BLASTp | Envelope glycoprotein gp160 | HIV-1 |
+
+---
+
+## 🧪 Tools & Databases Used
+
+- **NCBI BLAST**
+  - BLASTn (for nucleotide sequences)
+  - BLASTp (for protein sequence)
+- Databases:
+  - `core_nt`
+  - `ClusteredNR`
+
+---
+
+## 📊 Key Observations
+
+- High **percent identity** and extremely low **E-values** indicate strong and reliable matches.
+- Sequence 1 and 3 are **viral in origin**.
+- Sequence 2 is a **human gene involved in glucose metabolism**.
+- Alignment analysis confirmed accurate identification for all sequences.
+
+---
+
+## 📌 Conclusion
+
+BLAST analysis successfully identified all three unknown sequences with high confidence. The activity demonstrates effective use of BLAST tools to determine sequence type, organism origin, and biological function.[BLAST_Assignment_Submission.docx](https://github.com/user-attachments/files/24814245/BLAST_Assignment_Submission.docx)
